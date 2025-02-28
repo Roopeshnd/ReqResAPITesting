@@ -1,0 +1,243 @@
+Request method:	GET
+Request URI:	https://reqres.in/api/users/23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=23
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Delmar King",
+    "job": "Construction Liaison"
+}
+HTTP/1.1 201 Created
+Date: Thu, 27 Feb 2025 15:45:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 101
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740671147&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=9Sg%2FFVkTon%2BlcloD3ARMTiPWDQhkquPa0fP5O4a81ic%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740671147&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=9Sg%2FFVkTon%2BlcloD3ARMTiPWDQhkquPa0fP5O4a81ic%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"65-v6Cvo10+K52Jh63UNS+J7ch1eLI"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 91894dd01e93cbcd-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=97983&min_rtt=84300&rtt_var=41386&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3108&recv_bytes=938&delivery_rate=44483&cwnd=252&unsent_bytes=0&cid=b0f2083910945436&ts=505&x=0"
+
+{
+    "name": "Delmar King",
+    "job": "Construction Liaison",
+    "id": "979",
+    "createdAt": "2025-02-27T15:45:47.775Z"
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Thu, 27 Feb 2025 15:45:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740671147&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=9Sg%2FFVkTon%2BlcloD3ARMTiPWDQhkquPa0fP5O4a81ic%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740671147&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=9Sg%2FFVkTon%2BlcloD3ARMTiPWDQhkquPa0fP5O4a81ic%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: EXPIRED
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91894dd01aee7fcd-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=98022&min_rtt=83797&rtt_var=41585&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3108&recv_bytes=772&delivery_rate=44751&cwnd=252&unsent_bytes=0&cid=91af9c99a89fe4b7&ts=697&x=0"
+
+{
+    
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 27 Feb 2025 15:45:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740661817&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=fXcT%2BhsXkT9LfGgy29rYWOCu4v1P%2F7oXEHD76eOJ3Go%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740661817&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=fXcT%2BhsXkT9LfGgy29rYWOCu4v1P%2F7oXEHD76eOJ3Go%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 1621
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91894dd47d3d7f8b-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=57442&min_rtt=39663&rtt_var=27573&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=771&delivery_rate=94546&cwnd=252&unsent_bytes=0&cid=61449b798512c20c&ts=90&x=0"
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Delmar King",
+    "job": "Construction Liaison"
+}
+HTTP/1.1 200 OK
+Date: Thu, 27 Feb 2025 15:45:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740665684&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3g4eo8l6fBZoyYr4Rld9YbeLRXbdOw6mRQfJbzDAX%2Fs%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740665684&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3g4eo8l6fBZoyYr4Rld9YbeLRXbdOw6mRQfJbzDAX%2Fs%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"440-ZjsmMKR8P3usr2uJZbOCGCxC3Uw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 5464
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91894dd61ce12c07-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=37967&min_rtt=37967&rtt_var=18983&sent=7&recv=6&lost=0&retrans=1&sent_bytes=3718&recv_bytes=776&delivery_rate=26750&cwnd=253&unsent_bytes=0&cid=f1d07b1d31c393c9&ts=266&x=0"
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 27 Feb 2025 15:45:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740671148&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=e5xo2YXyKEQa%2F2con1665n2X7tV6qGvD4nZ7aA%2BnA%2FM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740671148&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=e5xo2YXyKEQa%2F2con1665n2X7tV6qGvD4nZ7aA%2BnA%2FM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"5a-V1D1eV70TNGYIkvMEGK12CWWREY"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91894dd71fcc1ae3-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=44296&min_rtt=40616&rtt_var=22591&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=939&delivery_rate=53528&cwnd=252&unsent_bytes=0&cid=16b7bb49c6e5b7df&ts=396&x=0"
+
+{
+    "name": "Delmar King",
+    "job": "Construction Liaison",
+    "updatedAt": "2025-02-27T15:45:48.893Z"
+}

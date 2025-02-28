@@ -1,0 +1,1201 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>API Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test Execution Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 28, 2025 09:16:49 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">UserDoesNotExitTest</p>
+            <p class="text-sm">
+              <span>9:16:50 pm</span> / <span>00:00:01:700</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">UserDoesNotExitTest</h5>
+<span class='badge badge-success'>02.28.2025 9:16:50 pm</span>
+<span class='badge badge-danger'>02.28.2025 9:16:51 pm</span>
+<span class='badge badge-default'>00:00:01:700</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:51 pm</td>
+        <td>
+          Test Passed ?
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:16:51 pm</td>
+        <td>
+          Request method:	GET
+Request URI:	https://reqres.in/api/users/23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=23
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 130
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cbf6f890553-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=35372&min_rtt=34924&rtt_var=13993&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=772&delivery_rate=97372&cwnd=252&unsent_bytes=0&cid=6a0475a4832f696e&ts=129&x=0"
+
+{
+    
+}
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CreateUserTest</p>
+            <p class="text-sm">
+              <span>9:16:50 pm</span> / <span>00:00:01:854</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">CreateUserTest</h5>
+<span class='badge badge-success'>02.28.2025 9:16:50 pm</span>
+<span class='badge badge-danger'>02.28.2025 9:16:52 pm</span>
+<span class='badge badge-default'>00:00:01:854</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:52 pm</td>
+        <td>
+          Test Passed ?
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:16:52 pm</td>
+        <td>
+          Request method:	GET
+Request URI:	https://reqres.in/api/users/23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=23
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 130
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cbf6f890553-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=35372&min_rtt=34924&rtt_var=13993&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=772&delivery_rate=97372&cwnd=252&unsent_bytes=0&cid=6a0475a4832f696e&ts=129&x=0"
+
+{
+    
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 543
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cc0bb2d0bbe-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=39681&min_rtt=38574&rtt_var=15256&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=771&delivery_rate=97215&cwnd=252&unsent_bytes=0&cid=51c5521b7187b060&ts=60&x=0"
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757611&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=ISn3Uf%2B854e%2FU7ImyjF5xjnEPeUO09SpQo2uCgzkkSg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757611&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=ISn3Uf%2B854e%2FU7ImyjF5xjnEPeUO09SpQo2uCgzkkSg%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"71-+qoqrPZVAaUsCiY1XDMvTfQ8fAA"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 91918cbf6fd71ae3-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=52076&min_rtt=33559&rtt_var=25811&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3109&recv_bytes=950&delivery_rate=111743&cwnd=252&unsent_bytes=0&cid=ec5114a674ad09af&ts=479&x=0"
+
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer",
+    "id": "451",
+    "createdAt": "2025-02-28T15:46:51.708Z"
+}
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getSpecificUserTest</p>
+            <p class="text-sm">
+              <span>9:16:51 pm</span> / <span>00:00:00:170</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getSpecificUserTest</h5>
+<span class='badge badge-success'>02.28.2025 9:16:51 pm</span>
+<span class='badge badge-danger'>02.28.2025 9:16:51 pm</span>
+<span class='badge badge-default'>00:00:00:170</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:51 pm</td>
+        <td>
+          Test Passed ?
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:16:51 pm</td>
+        <td>
+          Request method:	GET
+Request URI:	https://reqres.in/api/users/23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=23
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 130
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cbf6f890553-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=35372&min_rtt=34924&rtt_var=13993&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=772&delivery_rate=97372&cwnd=252&unsent_bytes=0&cid=6a0475a4832f696e&ts=129&x=0"
+
+{
+    
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 543
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cc0bb2d0bbe-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=39681&min_rtt=38574&rtt_var=15256&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=771&delivery_rate=97215&cwnd=252&unsent_bytes=0&cid=51c5521b7187b060&ts=60&x=0"
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">listUserBasedOnPage</p>
+            <p class="text-sm">
+              <span>9:16:51 pm</span> / <span>00:00:00:157</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">listUserBasedOnPage</h5>
+<span class='badge badge-success'>02.28.2025 9:16:51 pm</span>
+<span class='badge badge-danger'>02.28.2025 9:16:52 pm</span>
+<span class='badge badge-default'>00:00:00:157</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:52 pm</td>
+        <td>
+          Test Passed ?
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:16:52 pm</td>
+        <td>
+          Request method:	GET
+Request URI:	https://reqres.in/api/users/23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=23
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 130
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cbf6f890553-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=35372&min_rtt=34924&rtt_var=13993&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=772&delivery_rate=97372&cwnd=252&unsent_bytes=0&cid=6a0475a4832f696e&ts=129&x=0"
+
+{
+    
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 543
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cc0bb2d0bbe-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=39681&min_rtt=38574&rtt_var=15256&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=771&delivery_rate=97215&cwnd=252&unsent_bytes=0&cid=51c5521b7187b060&ts=60&x=0"
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757611&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=ISn3Uf%2B854e%2FU7ImyjF5xjnEPeUO09SpQo2uCgzkkSg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757611&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=ISn3Uf%2B854e%2FU7ImyjF5xjnEPeUO09SpQo2uCgzkkSg%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"71-+qoqrPZVAaUsCiY1XDMvTfQ8fAA"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 91918cbf6fd71ae3-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=52076&min_rtt=33559&rtt_var=25811&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3109&recv_bytes=950&delivery_rate=111743&cwnd=252&unsent_bytes=0&cid=ec5114a674ad09af&ts=479&x=0"
+
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer",
+    "id": "451",
+    "createdAt": "2025-02-28T15:46:51.708Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer"
+}
+HTTP/1.1 200 OK
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740723804&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=74QJ1ttNPdN3%2F%2FasSorcb2U%2F56VYHYgN%2FoEhISqmofo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740723804&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=74QJ1ttNPdN3%2F%2FasSorcb2U%2F56VYHYgN%2FoEhISqmofo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"440-ZjsmMKR8P3usr2uJZbOCGCxC3Uw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 4945
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cc1bfc79148-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=38929&min_rtt=33476&rtt_var=16448&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=776&delivery_rate=112020&cwnd=252&unsent_bytes=0&cid=8bb5f47effd79f3b&ts=61&x=0"
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">updateUserTest</p>
+            <p class="text-sm">
+              <span>9:16:52 pm</span> / <span>00:00:00:546</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">updateUserTest</h5>
+<span class='badge badge-success'>02.28.2025 9:16:52 pm</span>
+<span class='badge badge-danger'>02.28.2025 9:16:52 pm</span>
+<span class='badge badge-default'>00:00:00:546</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:52 pm</td>
+        <td>
+          Test Passed ?
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:16:52 pm</td>
+        <td>
+          Request method:	GET
+Request URI:	https://reqres.in/api/users/23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=23
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757481&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=6Df2SyihW6nwhIwd1ElXCzg9pPPd6SFVKRfMli6ApeI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 130
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cbf6f890553-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=35372&min_rtt=34924&rtt_var=13993&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=772&delivery_rate=97372&cwnd=252&unsent_bytes=0&cid=6a0475a4832f696e&ts=129&x=0"
+
+{
+    
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740706214&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b8iftc1nR5PFomfA2WmevcbjmdtOBvoHnePjuPkRrL0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 543
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cc0bb2d0bbe-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=39681&min_rtt=38574&rtt_var=15256&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=771&delivery_rate=97215&cwnd=252&unsent_bytes=0&cid=51c5521b7187b060&ts=60&x=0"
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757611&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=ISn3Uf%2B854e%2FU7ImyjF5xjnEPeUO09SpQo2uCgzkkSg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757611&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=ISn3Uf%2B854e%2FU7ImyjF5xjnEPeUO09SpQo2uCgzkkSg%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"71-+qoqrPZVAaUsCiY1XDMvTfQ8fAA"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 91918cbf6fd71ae3-MAA
+server-timing: cfL4;desc="?proto=TCP&rtt=52076&min_rtt=33559&rtt_var=25811&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3109&recv_bytes=950&delivery_rate=111743&cwnd=252&unsent_bytes=0&cid=ec5114a674ad09af&ts=479&x=0"
+
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer",
+    "id": "451",
+    "createdAt": "2025-02-28T15:46:51.708Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer"
+}
+HTTP/1.1 200 OK
+Date: Fri, 28 Feb 2025 15:46:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740723804&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=74QJ1ttNPdN3%2F%2FasSorcb2U%2F56VYHYgN%2FoEhISqmofo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740723804&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=74QJ1ttNPdN3%2F%2FasSorcb2U%2F56VYHYgN%2FoEhISqmofo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"440-ZjsmMKR8P3usr2uJZbOCGCxC3Uw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 4945
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cc1bfc79148-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=38929&min_rtt=33476&rtt_var=16448&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=776&delivery_rate=112020&cwnd=252&unsent_bytes=0&cid=8bb5f47effd79f3b&ts=61&x=0"
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+HTTP/1.1 200 OK
+Date: Fri, 28 Feb 2025 15:46:52 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1740757612&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=KiZVuGRHLMnp13%2FiYZbKWM0e5svU0KOQN56uYsIfH%2BE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1740757612&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=KiZVuGRHLMnp13%2FiYZbKWM0e5svU0KOQN56uYsIfH%2BE%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"66-VknyW1J+/PvbAP6fg3AV0wvBx8Y"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 91918cc29c9aa920-MAA
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=38962&min_rtt=32889&rtt_var=16671&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3107&recv_bytes=951&delivery_rate=114019&cwnd=252&unsent_bytes=0&cid=6ca8df4f2e57d358&ts=341&x=0"
+
+{
+    "name": "Rigoberto Satterfield",
+    "job": "Manufacturing Engineer",
+    "updatedAt": "2025-02-28T15:46:52.151Z"
+}
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 28, 2025 09:16:49 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 28, 2025 09:16:52 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>5</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'><b>5</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>5</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"UserDoesNotExitTest":1.7,"CreateUserTest":1.854,"getSpecificUserTest":0.17,"listUserBasedOnPage":0.157,"updateUserTest":0.546
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>Your Name</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 5,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 5
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

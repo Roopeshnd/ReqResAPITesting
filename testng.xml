@@ -1,0 +1,10 @@
+<suite name="User API Test Suite" parallel ="methods" thread-count="2">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"  />
+    </listeners>
+    <test name="User Tests">
+        <classes>
+            <class name="test.UserTests"/>
+        </classes>
+    </test>
+</suite>
