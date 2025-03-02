@@ -55,6 +55,7 @@ public class UserTests {
         response.then().log().all();
         Assert.assertEquals(response.statusCode(),200);
         LoggerUtility.info("API Test Passed: updateUserTest");
+        Assert.fail();
     }
 
     @Test(retryAnalyzer = RetryAnalyzer.class)
@@ -64,7 +65,6 @@ public class UserTests {
         response.then().log().all();
         Assert.assertEquals(response.statusCode(),404);
         LoggerUtility.info("API Test Passed: UserDoesNotExitTest");
-        Assert.fail();
     }
 
     @Test(retryAnalyzer = RetryAnalyzer.class)
