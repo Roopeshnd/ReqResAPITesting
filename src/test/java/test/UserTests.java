@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import playload.User;
 import utilities.LoggerUtility;
+import utilities.RetryAnalyzer;
 
 
 public class UserTests {
@@ -29,7 +30,7 @@ public class UserTests {
         logger= LogManager.getLogger(this.getClass());
     }
 
-    @Test(groups = "beforeTest")
+    @Test(groups = "beforeTest",retryAnalyzer = RetryAnalyzer.class)
     public void CreateUserTest(){
         LoggerUtility.info("Starting API Test: CreateUser");
         Response response = userEndpoints.createUsers(userplayload);
@@ -38,7 +39,7 @@ public class UserTests {
         LoggerUtility.info("API Test Passed: CreateUser");
     }
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void getSpecificUserTest(){
         logger.info("Starting API Test: getSpecificUserTest");
         Response response = userEndpoints.getSpecificUser(2);
@@ -47,7 +48,7 @@ public class UserTests {
         LoggerUtility.info("API Test Passed: getSpecificUserTest");
     }
 
-    @Test(groups = "beforeTest")
+    @Test(groups = "beforeTest",retryAnalyzer = RetryAnalyzer.class)
     public void updateUserTest(){
         LoggerUtility.info("Starting API Test: updateUserTest");
         Response response = userEndpoints.updateTheUser(2,userplayload);
@@ -56,7 +57,7 @@ public class UserTests {
         LoggerUtility.info("API Test Passed: updateUserTest");
     }
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void UserDoesNotExitTest(){
         LoggerUtility.info("Starting API Test: UserDoesNotExitTest");
         Response response = userEndpoints.UserDoesNotExist(23);
@@ -65,7 +66,7 @@ public class UserTests {
         LoggerUtility.info("API Test Passed: UserDoesNotExitTest");
     }
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void listUserBasedOnPage(){
         LoggerUtility.info("Starting API Test: listUserBasedOnPage");
         Response response = userEndpoints.listUserBasedOnPage(2);
